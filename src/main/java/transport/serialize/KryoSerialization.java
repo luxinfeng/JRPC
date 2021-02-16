@@ -1,4 +1,4 @@
-package transport;
+package transport.serialize;
 
 import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.Registration;

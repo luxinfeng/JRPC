@@ -1,10 +1,10 @@
-package transport;
+package transport.serialize;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.ByteToMessageDecoder;
-import protocol.RpcRequest;
-import protocol.RpcResponse;
+import transport.protocol.RpcRequest;
+import transport.protocol.RpcResponse;
 import util.Tool;
 
 import java.util.List;

@@ -1,6 +1,6 @@
 package consumer;
 
-import protocol.RpcRequest;
+import transport.protocol.RpcRequest;
 
 /**
  * @author luxinfeng

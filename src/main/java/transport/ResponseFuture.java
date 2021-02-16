@@ -1,6 +1,6 @@
 package transport;
 
-import protocol.RpcResponse;
+import transport.protocol.RpcResponse;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;

@@ -1,4 +1,4 @@
-package transport;
+package transport.serialize;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;

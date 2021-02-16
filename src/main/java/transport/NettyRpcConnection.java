@@ -5,8 +5,9 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
-import protocol.RpcRequest;
-import protocol.RpcResponse;
+import transport.protocol.RpcRequest;
+import transport.protocol.RpcResponse;
+import transport.serialize.*;
 
 import java.net.InetSocketAddress;
 import java.util.ArrayList;

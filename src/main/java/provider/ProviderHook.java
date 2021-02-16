@@ -1,7 +1,6 @@
 package provider;
 
-import protocol.RpcRequest;
-import protocol.RpcResponse;
+import transport.protocol.RpcRequest;
 
 /**
  * @author luxinfeng
