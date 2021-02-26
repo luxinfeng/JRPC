@@ -47,7 +47,7 @@ public class ConsumerBuilder {
 
     private static Class<?> getConsumerImplClass(){
         try {
-            return Class.forName("com.alibaba.middleware.race.rpc.api.impl.RpcConsumerImpl");
+            return Class.forName("org.example.rpc.consumer.impl.RpcConsumerImpl");
         } catch (ClassNotFoundException e) {
             System.out.println("Cannot found the class which must exist and override all RpcProvider's methods");
             e.printStackTrace();

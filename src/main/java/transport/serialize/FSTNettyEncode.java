@@ -15,6 +15,7 @@ public class FSTNettyEncode extends MessageToByteEncoder {
 
     @Override
     protected void encode(ChannelHandlerContext ctx, Object msg, ByteBuf out) throws Exception {
+        // 将信息保存为字节数组
         byte[] bytes = conf.asByteArray(msg);
         out.writeInt((bytes.length));
         out.writeBytes(bytes);

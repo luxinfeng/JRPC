@@ -10,6 +10,10 @@ import provider.RpcProvider;
  */
 public class ProviderBuilder {
 
+    public static void buildProvider(){
+        publish();
+    }
+
 
     private static void publish(){
         RpcProvider rpcProvider = null;
@@ -39,7 +43,7 @@ public class ProviderBuilder {
 
     private static Class<?> getProviderImplClass(){
         try {
-            return Class.forName("com.alibaba.middleware.race.rpc.api.impl.RpcProviderImpl");
+            return Class.forName("org.example.rpc.provider.impl.RpcProviderImpl");
         } catch (ClassNotFoundException e) {
             System.out.println("Cannot found the class which must exist and override all RpcProvider's methods");
             e.printStackTrace();
